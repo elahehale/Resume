@@ -38,15 +38,19 @@
         .divider-horizontal{
             width: 100%!important;
             height: 1.5px;
-            background-color: teal;
+            background-color: lightgrey;
         }
         h2{
             color: teal;
         }
+        @media only screen and (min-width: 768px) {
+            .content {
+                border-left: 2px solid teal;            }
+            }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" >
         <!-- Header Section -->
         <div class="header mt-5">
             <h1>Elaheh Habibzadeh Shojaee</h1>
@@ -62,6 +66,7 @@
                 <a href="#" class="btn  bg-teal text-white" role="button" aria-pressed="true">Download CV</a>
             </div>
         </div>
+        <div class="pl-md-5 pl-0-5 content">
         <!-- Education Section -->
         <div class="education">
             <h2 class="section-title">Education</h2>
@@ -74,7 +79,7 @@
             <p>- High School Diploma in Math & Physics, CGPA: 4/4 (19.96/20)</p>
             <p><em>- 2017 – 2020 | Tehran, Iran</em></p>
         </div>
-        <div class="divider-horizontal"/>
+        <div class="divider-horizontal"></div>
 
         <!-- Related Courses Section -->
         <div class="related-courses">
@@ -90,7 +95,7 @@
                 <li>Software Testing: 20/20</li>
             </ul>
         </div>
-        <div class="divider-horizontal"/>
+        <div class="divider-horizontal"></div>
 
         <!-- Skills Section -->
         <div class="skills">
@@ -103,7 +108,7 @@
                 <li><strong>Developer Tools:</strong> Git, Postman, Google Colab</li>
             </ul>
         </div>
-        <div class="divider-horizontal"/>
+        <div class="divider-horizontal"></div>
 
         <!-- Awards Section -->
         <div class="awards">
@@ -114,7 +119,7 @@
                 <li>175th place out of approximately 135,000 candidates in the nationwide University Entrance Exam for B.Sc. in Mathematics and Physics.</li>
             </ul>
         </div>
-        <div class="divider-horizontal"/>
+        <div class="divider-horizontal"></div>
 
         <!-- Experience Section -->
         <div class="experience">
@@ -159,7 +164,7 @@
                 <li>Developed responsive web pages using HTML, CSS, Bootstrap, and JavaScript during internship phase.</li>
             </ul>
         </div>
-        <div class="divider-horizontal"/>
+        <div class="divider-horizontal"></div>
 
         <!-- Projects Section -->
         <div class="projects">
@@ -235,11 +240,11 @@
                 </li>
             </ul>
         </div>
+    </div>
         <footer class="text-center my-5  teal">
             Last update : 30 Aug 2024
             <br/>
             <br/>
-            
         </footer>
     </div>
     
